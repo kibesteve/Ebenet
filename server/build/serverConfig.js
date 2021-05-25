@@ -10,5 +10,12 @@ exports.default = {
     filePath: {
         serverLog: "./src/logs/serverLogger",
         consoleLog: "./src/logs/consoleLogger",
+    },
+    rootDatabase: {
+        host: '127.0.0.1',
+        user: 'root',
+        password: '',
+        database: 'eben',
+        timezone: 'EAT',
     }
 };

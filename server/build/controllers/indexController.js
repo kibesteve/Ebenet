@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.indexController = void 0;
 var mysql = require('mysql');
 var IndexController = /** @class */ (function () {
     function IndexController() {
     }
     IndexController.prototype.index = function (req, res) {
-        res.send('Hello');
+        console.log("Home page");
+        res.send('Hello yall');
     };
     IndexController.prototype.getTime = function (req, res) {
         res.send('Hello');
